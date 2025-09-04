@@ -6,6 +6,8 @@ Este es el backend de la aplicación **Clinica Veterinaria**, desarrollado con *
 
 ## Tecnologías Utilizadas
 
+```
+
 - **FastAPI**: Framework web moderno y de alto rendimiento para construir APIs con Python 3.6+.
 - **Python 3.10+**: Lenguaje de programación utilizado para el desarrollo del backend.
 - **Supabase**: Plataforma de backend como servicio que proporciona una base de datos PostgreSQL, autenticación, almacenamiento y funciones en tiempo real.
@@ -13,8 +15,11 @@ Este es el backend de la aplicación **Clinica Veterinaria**, desarrollado con *
 - **python-jose**: Biblioteca para trabajar con JSON Web Tokens (JWT) y autenticación.
 - **Uvicorn**: Servidor ASGI para ejecutar aplicaciones FastAPI.
 
+```
+
 ## Estructura del Proyecto
 Clinica-Veterinaria-Backend/
+```
 ├── app/
 │   ├── main.py              # Punto de entrada de la aplicación FastAPI
 │   ├── models/              # Modelos de datos y esquemas Pydantic
@@ -23,6 +28,8 @@ Clinica-Veterinaria-Backend/
 ├── .env                     # Variables de entorno (no incluir en el repositorio)
 ├── requirements.txt         # Dependencias del proyecto
 └── README.md                # Documentación del proyecto
+
+```
 
 
 ## Instalación
